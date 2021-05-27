@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="MemControl_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="MemControl_tb" />
+            <top_module name="yolo_pkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="47952212500fs"></ZoomStartTime>
+      <ZoomEndTime time="62160647501fs"></ZoomEndTime>
+      <Cursor1Time time="59792575000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="224"></NameColumnWidth>
+      <ValueColumnWidth column_width="73"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="7" />
+   <wvobject fp_name="/MemControl_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MemControl_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MemControl_tb/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MemControl_tb/uut/we" type="logic">
+      <obj_property name="ElementShortName">we</obj_property>
+      <obj_property name="ObjectShortName">we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MemControl_tb/uut/count_delay" type="other">
+      <obj_property name="ElementShortName">count_delay</obj_property>
+      <obj_property name="ObjectShortName">count_delay</obj_property>
+   </wvobject>
+   <wvobject fp_name="group278" type="group">
+      <obj_property name="label">WRITING</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/MemControl_tb/uut/weRAM" type="logic">
+         <obj_property name="ElementShortName">weRAM</obj_property>
+         <obj_property name="ObjectShortName">weRAM</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MemControl_tb/uut/wMemOdd" type="logic">
+         <obj_property name="ElementShortName">wMemOdd</obj_property>
+         <obj_property name="ObjectShortName">wMemOdd</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MemControl_tb/uut/wcount_data" type="other">
+         <obj_property name="ElementShortName">wcount_data</obj_property>
+         <obj_property name="ObjectShortName">wcount_data</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MemControl_tb/uut/wBank" type="other">
+         <obj_property name="ElementShortName">wBank</obj_property>
+         <obj_property name="ObjectShortName">wBank</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MemControl_tb/uut/wbankOffset" type="other">
+         <obj_property name="ElementShortName">wbankOffset</obj_property>
+         <obj_property name="ObjectShortName">wbankOffset</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MemControl_tb/uut/waddress" type="other">
+         <obj_property name="ElementShortName">waddress</obj_property>
+         <obj_property name="ObjectShortName">waddress</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MemControl_tb/uut/waddressoffset" type="other">
+         <obj_property name="ElementShortName">waddressoffset</obj_property>
+         <obj_property name="ObjectShortName">waddressoffset</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MemControl_tb/uut/wcount_col" type="other">
+         <obj_property name="ElementShortName">wcount_col</obj_property>
+         <obj_property name="ObjectShortName">wcount_col</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MemControl_tb/uut/wcount_ch" type="other">
+         <obj_property name="ElementShortName">wcount_ch</obj_property>
+         <obj_property name="ObjectShortName">wcount_ch</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group277" type="group">
+      <obj_property name="label">READING</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/MemControl_tb/uut/oe" type="logic">
+         <obj_property name="ElementShortName">oe</obj_property>
+         <obj_property name="ObjectShortName">oe</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MemControl_tb/validOut" type="logic">
+         <obj_property name="ElementShortName">validOut</obj_property>
+         <obj_property name="ObjectShortName">validOut</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MemControl_tb/uut/rMem" type="other">
+         <obj_property name="ElementShortName">rMem</obj_property>
+         <obj_property name="ObjectShortName">rMem</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MemControl_tb/rMemOdd" type="logic">
+         <obj_property name="ElementShortName">rMemOdd</obj_property>
+         <obj_property name="ObjectShortName">rMemOdd</obj_property>
+      </wvobject>
+      <wvobject fp_name="group288" type="group">
+         <obj_property name="label">CONT</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/MemControl_tb/uut/rcount_col" type="other">
+            <obj_property name="ElementShortName">rcount_col</obj_property>
+            <obj_property name="ObjectShortName">rcount_col</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MemControl_tb/uut/rcount_ch" type="other">
+            <obj_property name="ElementShortName">rcount_ch</obj_property>
+            <obj_property name="ObjectShortName">rcount_ch</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MemControl_tb/uut/rcount_fil" type="other">
+            <obj_property name="ElementShortName">rcount_fil</obj_property>
+            <obj_property name="ObjectShortName">rcount_fil</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MemControl_tb/uut/rcount_row" type="other">
+            <obj_property name="ElementShortName">rcount_row</obj_property>
+            <obj_property name="ObjectShortName">rcount_row</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group281" type="group">
+         <obj_property name="label">DIRECCIONES</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/MemControl_tb/weightaddress" type="other">
+            <obj_property name="ElementShortName">weightaddress</obj_property>
+            <obj_property name="ObjectShortName">weightaddress</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MemControl_tb/uut/rdir_deadline" type="other">
+            <obj_property name="ElementShortName">rdir_deadline</obj_property>
+            <obj_property name="ObjectShortName">rdir_deadline</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MemControl_tb/uut/raddress" type="other">
+            <obj_property name="ElementShortName">raddress</obj_property>
+            <obj_property name="ObjectShortName">raddress</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MemControl_tb/uut/rbase" type="other">
+            <obj_property name="ElementShortName">rbase</obj_property>
+            <obj_property name="ObjectShortName">rbase</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MemControl_tb/uut/addcount_row" type="other">
+            <obj_property name="ElementShortName">addcount_row</obj_property>
+            <obj_property name="ObjectShortName">addcount_row</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MemControl_tb/uut/address0" type="other">
+            <obj_property name="ElementShortName">address0</obj_property>
+            <obj_property name="ObjectShortName">address0</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MemControl_tb/uut/address1" type="other">
+            <obj_property name="ElementShortName">address1</obj_property>
+            <obj_property name="ObjectShortName">address1</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MemControl_tb/uut/address2" type="other">
+            <obj_property name="ElementShortName">address2</obj_property>
+            <obj_property name="ObjectShortName">address2</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/MemControl_tb/uut/padding" type="array">
+         <obj_property name="ElementShortName">padding[2:0]</obj_property>
+         <obj_property name="ObjectShortName">padding[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MemControl_tb/uut/kernelCol" type="other">
+         <obj_property name="ElementShortName">kernelCol</obj_property>
+         <obj_property name="ObjectShortName">kernelCol</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MemControl_tb/uut/kernelRow" type="other">
+         <obj_property name="ElementShortName">kernelRow</obj_property>
+         <obj_property name="ObjectShortName">kernelRow</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

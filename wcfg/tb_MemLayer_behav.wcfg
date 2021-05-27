@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_MemLayer_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_MemLayer" />
+            <top_module name="yolo_pkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="398318fs"></ZoomEndTime>
+      <Cursor1Time time="245833fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="150"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="37" />
+   <wvobject fp_name="/tb_MemLayer/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MemLayer/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MemLayer/Dout" type="array">
+      <obj_property name="ElementShortName">Dout[53:0]</obj_property>
+      <obj_property name="ObjectShortName">Dout[53:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider212">
+      <obj_property name="label">READ</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MemLayer/oe" type="logic">
+      <obj_property name="ElementShortName">oe</obj_property>
+      <obj_property name="ObjectShortName">oe</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MemLayer/dut/oeRAModd" type="array">
+      <obj_property name="ElementShortName">oeRAModd[8:0]</obj_property>
+      <obj_property name="ObjectShortName">oeRAModd[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MemLayer/dut/oeRAMeven" type="array">
+      <obj_property name="ElementShortName">oeRAMeven[8:0]</obj_property>
+      <obj_property name="ObjectShortName">oeRAMeven[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MemLayer/rMem" type="other">
+      <obj_property name="ElementShortName">rMem</obj_property>
+      <obj_property name="ObjectShortName">rMem</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MemLayer/rMemodd" type="logic">
+      <obj_property name="ElementShortName">rMemodd</obj_property>
+      <obj_property name="ObjectShortName">rMemodd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MemLayer/address0" type="other">
+      <obj_property name="ElementShortName">address0</obj_property>
+      <obj_property name="ObjectShortName">address0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MemLayer/address1" type="other">
+      <obj_property name="ElementShortName">address1</obj_property>
+      <obj_property name="ObjectShortName">address1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MemLayer/address2" type="other">
+      <obj_property name="ElementShortName">address2</obj_property>
+      <obj_property name="ObjectShortName">address2</obj_property>
+   </wvobject>
+   <wvobject fp_name="group209" type="group">
+      <obj_property name="label">DataToKernel</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_MemLayer/dut/DataOutRAMeven" type="array">
+         <obj_property name="ElementShortName">DataOutRAMeven[53:0]</obj_property>
+         <obj_property name="ObjectShortName">DataOutRAMeven[53:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_MemLayer/dut/DataOutRAModd" type="array">
+         <obj_property name="ElementShortName">DataOutRAModd[53:0]</obj_property>
+         <obj_property name="ObjectShortName">DataOutRAModd[53:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_MemLayer/dut/DataOutRAM" type="array">
+         <obj_property name="ElementShortName">DataOutRAM[53:0]</obj_property>
+         <obj_property name="ObjectShortName">DataOutRAM[53:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider523">
+      <obj_property name="label">RAM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MemLayer/dut/\block_gen(1)\/\mem_gen(0)\/mem_even/rAddr" type="array">
+      <obj_property name="ElementShortName">rAddr[5:0]</obj_property>
+      <obj_property name="ObjectShortName">rAddr[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MemLayer/dut/\block_gen(1)\/\mem_gen(0)\/mem_even/Dout" type="array">
+      <obj_property name="ElementShortName">Dout[5:0]</obj_property>
+      <obj_property name="ObjectShortName">Dout[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MemLayer/dut/\block_gen(1)\/\mem_gen(1)\/mem_even/Dout" type="array">
+      <obj_property name="ElementShortName">Dout[5:0]</obj_property>
+      <obj_property name="ObjectShortName">Dout[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MemLayer/dut/\block_gen(1)\/\mem_gen(2)\/mem_even/Dout" type="array">
+      <obj_property name="ElementShortName">Dout[5:0]</obj_property>
+      <obj_property name="ObjectShortName">Dout[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MemLayer/dut/\block_gen(1)\/\mem_gen(2)\/mem_even/rAddr" type="array">
+      <obj_property name="ElementShortName">rAddr[5:0]</obj_property>
+      <obj_property name="ObjectShortName">rAddr[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MemLayer/dut/\block_gen(1)\/\mem_gen(2)\/mem_even/RAM_content" type="array">
+      <obj_property name="ElementShortName">RAM_content[0:63][5:0]</obj_property>
+      <obj_property name="ObjectShortName">RAM_content[0:63][5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MemLayer/dut/\block_gen(1)\/\mem_gen(3)\/mem_even/Dout" type="array">
+      <obj_property name="ElementShortName">Dout[5:0]</obj_property>
+      <obj_property name="ObjectShortName">Dout[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MemLayer/dut/\block_gen(1)\/\mem_gen(4)\/mem_even/Dout" type="array">
+      <obj_property name="ElementShortName">Dout[5:0]</obj_property>
+      <obj_property name="ObjectShortName">Dout[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MemLayer/dut/\block_gen(1)\/\mem_gen(4)\/mem_even/rAddr" type="array">
+      <obj_property name="ElementShortName">rAddr[5:0]</obj_property>
+      <obj_property name="ObjectShortName">rAddr[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MemLayer/dut/\block_gen(1)\/\mem_gen(5)\/mem_even/Dout" type="array">
+      <obj_property name="ElementShortName">Dout[5:0]</obj_property>
+      <obj_property name="ObjectShortName">Dout[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MemLayer/dut/\block_gen(1)\/\mem_gen(6)\/mem_even/Dout" type="array">
+      <obj_property name="ElementShortName">Dout[5:0]</obj_property>
+      <obj_property name="ObjectShortName">Dout[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MemLayer/dut/\block_gen(1)\/\mem_gen(7)\/mem_even/Dout" type="array">
+      <obj_property name="ElementShortName">Dout[5:0]</obj_property>
+      <obj_property name="ObjectShortName">Dout[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MemLayer/dut/\block_gen(1)\/\mem_gen(8)\/mem_even/Dout" type="array">
+      <obj_property name="ElementShortName">Dout[5:0]</obj_property>
+      <obj_property name="ObjectShortName">Dout[5:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider213">
+      <obj_property name="label">WRITE</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#FF00FF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MemLayer/Din" type="array">
+      <obj_property name="ElementShortName">Din[11:0]</obj_property>
+      <obj_property name="ObjectShortName">Din[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MemLayer/dut/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MemLayer/we" type="logic">
+      <obj_property name="ElementShortName">we</obj_property>
+      <obj_property name="ObjectShortName">we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MemLayer/wMemOdd" type="logic">
+      <obj_property name="ElementShortName">wMemOdd</obj_property>
+      <obj_property name="ObjectShortName">wMemOdd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MemLayer/wBank" type="other">
+      <obj_property name="ElementShortName">wBank</obj_property>
+      <obj_property name="ObjectShortName">wBank</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MemLayer/waddress" type="other">
+      <obj_property name="ElementShortName">waddress</obj_property>
+      <obj_property name="ObjectShortName">waddress</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider214">
+      <obj_property name="label">RAM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#FF00FF</obj_property>
+   </wvobject>
+   <wvobject fp_name="group262" type="group">
+      <obj_property name="label">0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_MemLayer/dut/\block_gen(0)\/\mem_gen(0)\/mem_even/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_MemLayer/dut/\block_gen(0)\/\mem_gen(0)\/mem_even/we" type="logic">
+         <obj_property name="ElementShortName">we</obj_property>
+         <obj_property name="ObjectShortName">we</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_MemLayer/dut/\block_gen(0)\/\mem_gen(0)\/mem_even/wAddr" type="array">
+         <obj_property name="ElementShortName">wAddr[5:0]</obj_property>
+         <obj_property name="ObjectShortName">wAddr[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_MemLayer/dut/\block_gen(0)\/\mem_gen(0)\/mem_even/Din" type="array">
+         <obj_property name="ElementShortName">Din[5:0]</obj_property>
+         <obj_property name="ObjectShortName">Din[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_MemLayer/dut/\block_gen(1)\/\mem_gen(0)\/mem_even/Din" type="array">
+         <obj_property name="ElementShortName">Din[5:0]</obj_property>
+         <obj_property name="ObjectShortName">Din[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_MemLayer/dut/\block_gen(0)\/\mem_gen(0)\/mem_even/RAM_content" type="array">
+         <obj_property name="ElementShortName">RAM_content[0:63][5:0]</obj_property>
+         <obj_property name="ObjectShortName">RAM_content[0:63][5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_MemLayer/dut/\block_gen(1)\/\mem_gen(0)\/mem_even/RAM_content" type="array">
+         <obj_property name="ElementShortName">RAM_content[0:63][5:0]</obj_property>
+         <obj_property name="ObjectShortName">RAM_content[0:63][5:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group393" type="group">
+      <obj_property name="label">4</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_MemLayer/dut/\block_gen(0)\/\mem_gen(4)\/mem_even/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_MemLayer/dut/\block_gen(0)\/\mem_gen(4)\/mem_even/we" type="logic">
+         <obj_property name="ElementShortName">we</obj_property>
+         <obj_property name="ObjectShortName">we</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_MemLayer/dut/\block_gen(0)\/\mem_gen(4)\/mem_even/Din" type="array">
+         <obj_property name="ElementShortName">Din[5:0]</obj_property>
+         <obj_property name="ObjectShortName">Din[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_MemLayer/dut/\block_gen(0)\/\mem_gen(4)\/mem_even/wAddr" type="array">
+         <obj_property name="ElementShortName">wAddr[5:0]</obj_property>
+         <obj_property name="ObjectShortName">wAddr[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_MemLayer/dut/\block_gen(0)\/\mem_gen(4)\/mem_even/RAM_content" type="array">
+         <obj_property name="ElementShortName">RAM_content[0:63][5:0]</obj_property>
+         <obj_property name="ObjectShortName">RAM_content[0:63][5:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

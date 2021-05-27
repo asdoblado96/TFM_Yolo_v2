@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_ConvControl_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_ConvControl" />
+            <top_module name="yolo_pkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="7880630591fs"></ZoomStartTime>
+      <ZoomEndTime time="8647531882fs"></ZoomEndTime>
+      <Cursor1Time time="8519715000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="147"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="/tb_ConvControl/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ConvControl/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ConvControl/validIn" type="logic">
+      <obj_property name="ElementShortName">validIn</obj_property>
+      <obj_property name="ObjectShortName">validIn</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ConvControl/startLBuffer" type="logic">
+      <obj_property name="ElementShortName">startLBuffer</obj_property>
+      <obj_property name="ObjectShortName">startLBuffer</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ConvControl/enableLBuffer" type="logic">
+      <obj_property name="ElementShortName">enableLBuffer</obj_property>
+      <obj_property name="ObjectShortName">enableLBuffer</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ConvControl/validOut" type="logic">
+      <obj_property name="ElementShortName">validOut</obj_property>
+      <obj_property name="ObjectShortName">validOut</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ConvControl/uut/count_col" type="other">
+      <obj_property name="ElementShortName">count_col</obj_property>
+      <obj_property name="ObjectShortName">count_col</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ConvControl/uut/count_ch" type="other">
+      <obj_property name="ElementShortName">count_ch</obj_property>
+      <obj_property name="ObjectShortName">count_ch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ConvControl/uut/count_filters" type="other">
+      <obj_property name="ElementShortName">count_filters</obj_property>
+      <obj_property name="ObjectShortName">count_filters</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ConvControl/uut/count_row" type="other">
+      <obj_property name="ElementShortName">count_row</obj_property>
+      <obj_property name="ObjectShortName">count_row</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ConvControl/uut/count_pushing" type="other">
+      <obj_property name="ElementShortName">count_pushing</obj_property>
+      <obj_property name="ObjectShortName">count_pushing</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ConvControl/uut/layer" type="other">
+      <obj_property name="ElementShortName">layer</obj_property>
+      <obj_property name="ObjectShortName">layer</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ConvControl/uut/Hr" type="other">
+      <obj_property name="ElementShortName">Hr</obj_property>
+      <obj_property name="ObjectShortName">Hr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ConvControl/uut/Hc" type="other">
+      <obj_property name="ElementShortName">Hc</obj_property>
+      <obj_property name="ObjectShortName">Hc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ConvControl/uut/Ch" type="other">
+      <obj_property name="ElementShortName">Ch</obj_property>
+      <obj_property name="ObjectShortName">Ch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ConvControl/uut/F" type="other">
+      <obj_property name="ElementShortName">F</obj_property>
+      <obj_property name="ObjectShortName">F</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ConvControl/uut/K" type="other">
+      <obj_property name="ElementShortName">K</obj_property>
+      <obj_property name="ObjectShortName">K</obj_property>
+   </wvobject>
+</wave_config>
