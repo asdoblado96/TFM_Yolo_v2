@@ -1,7 +1,7 @@
 LIBRARY IEEE;
 USE IEEE.std_logic_1164.ALL;
 USE IEEE.numeric_std.ALL;
---hola2
+--hola
 
 LIBRARY work;
 USE work.YOLO_pkg.ALL;
